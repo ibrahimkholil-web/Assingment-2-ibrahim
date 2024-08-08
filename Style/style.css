@@ -385,6 +385,12 @@ footer{
 /* Media section start here  */
 
 @media screen and (max-width:576px){
+    .primary-btn, .hero-btn{
+        padding: 10px;
+        margin: 0px;
+        height: auto;
+        font-size: 0.7rem;
+    }
     .nav-item{
         display: none;
     }
@@ -411,27 +417,24 @@ footer{
     }
 
     .hero-right > img {
-        height: 400px;
+        height: 450px;
+        margin-left: 20px;
     }
     .hero-section button{
-       width: 170px;
+      width: auto;
+      margin-left: 0px;
     }
-    .hero-btn{
-        padding: 16px 16px;
-    }
-    .primary-btn{
-        padding: 16px;
+    .hero-button{
+        margin-left: 50px;
     }
     .right-top,
     .right-btn{
-        position: absolute;
-        top: 10%;
-        left: 60%;
         width: 150px;
-        padding: 10px;
+        left: 55%;
+        padding: 8px;
     }
     .right-btn{
-        top: 50%;
+        top: 60%;
         left: 10%;
     }
     .video{
